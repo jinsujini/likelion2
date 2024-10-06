@@ -1,0 +1,55 @@
+.header {
+    height: 50px;
+   
+    width: 375px;
+    position: absolute;
+    top: 44px;
+    z-index: 10;
+    background-color: #6A6FB3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 120px;
+    }
+    
+}
+
+.nav {
+    position: absolute;
+    height: 60px;
+    width: 375px;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    background-color: #fff;
+
+
+    img {
+        width: 25px;
+        height: 25px;
+    }
+    
+
+}
+
+.container {
+    background-color: #fff;
+    width: 375px;
+    min-height: 100vh;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    padding-top: 94px;
+}
+
+body {
+    position: relative;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
